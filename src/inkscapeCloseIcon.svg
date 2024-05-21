@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   inkscape:export-filename="D:/Pobrane/"
+   sodipodi:docname="inkscapeCloseIcon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="false"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="true"
+     showborder="true"
+     inkscape:zoom="5.74422"
+     inkscape:cx="275.8425"
+     inkscape:cy="265.5713"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="1911"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5">
+    <inkscape:grid
+       type="xygrid"
+       id="grid182"
+       empcolor="#ffffff"
+       empopacity="0.5372549"
+       color="#ffffff"
+       opacity="0.1372549"
+       spacingx="2.6458333"
+       spacingy="2.6458333"
+       visible="true"
+       enabled="true"
+       originx="0"
+       originy="0"
+       units="px"
+       empspacing="6" />
+    <inkscape:grid
+       id="grid79"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="0.26458333"
+       spacingy="0.26458333"
+       empcolor="#ffffff"
+       empopacity="0.21960784"
+       color="#ffffff"
+       opacity="0.09019608"
+       empspacing="10"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true"
+       enabled="false"
+       snapvisiblegridlinesonly="true" />
+    <inkscape:grid
+       type="axonomgrid"
+       id="grid5"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="0"
+       spacingy="1"
+       empcolor="#ffffff"
+       empopacity="0.2745098"
+       color="#ffffff"
+       opacity="0.1254902"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true"
+       enabled="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="dashed_stroke"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1"
+       numberdashes="3"
+       holefactor="0.25"
+       splitsegments="true"
+       halfextreme="true"
+       unifysegment="true"
+       message="Add &lt;b&gt;&quot;Fill Between Many LPE&quot;&lt;/b&gt; to add fill." />
+    <inkscape:path-effect
+       effect="copy_rotate"
+       starting_point="93.171624,116.32264"
+       origin="89.864327,116.32264"
+       id="path-effect8"
+       is_visible="true"
+       lpeversion="1.2"
+       lpesatellites=""
+       method="normal"
+       num_copies="6"
+       starting_angle="0"
+       rotation_angle="72"
+       gap="0"
+       copies_to_360="true"
+       mirror_copies="false"
+       split_items="false"
+       link_styles="false" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 148.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="210 : 148.5 : 1"
+       inkscape:persp3d-origin="105 : 99 : 1"
+       id="perspective1" />
+    <rect
+       x="250"
+       y="199.99999"
+       width="120"
+       height="59.999998"
+       id="rect34" />
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter57"
+       x="-0.10028686"
+       y="-0.026078297"
+       width="2.0362976"
+       height="1.2694757">
+      <feFlood
+         result="flood"
+         in="SourceGraphic"
+         flood-opacity="1.000000"
+         flood-color="rgb(151,151,151)"
+         id="feFlood56" />
+      <feGaussianBlur
+         result="blur"
+         in="SourceGraphic"
+         stdDeviation="0.100000"
+         id="feGaussianBlur56" />
+      <feOffset
+         result="offset"
+         in="blur"
+         dx="2.000000"
+         dy="2.000000"
+         id="feOffset56" />
+      <feComposite
+         result="comp1"
+         operator="in"
+         in="flood"
+         in2="offset"
+         id="feComposite56" />
+      <feComposite
+         result="comp2"
+         operator="over"
+         in="SourceGraphic"
+         in2="comp1"
+         id="feComposite57" />
+    </filter>
+  </defs>
+  <g
+     id="path1"
+     style="stroke:#999999;stroke-opacity:1;fill:#999999"
+     inkscape:export-filename="closeIcon.svg"
+     inkscape:export-xdpi="28.429869"
+     inkscape:export-ydpi="28.429869">
+    <path
+       style="color:#000000;fill:#999999;stroke-linecap:round;-inkscape-stroke:none;paint-order:markers stroke fill;stroke:#999999;stroke-opacity:1"
+       d="m 79.021484,63.146484 -15.875,15.875 a 0.50006002,0.50006002 0 0 0 0,0.707032 0.50006002,0.50006002 0 0 0 0.707032,0 l 15.875,-15.875 a 0.50006002,0.50006002 0 0 0 0,-0.707032 0.50006002,0.50006002 0 0 0 -0.707032,0 z"
+       id="path3" />
+    <path
+       style="color:#000000;fill:#999999;stroke-linecap:round;-inkscape-stroke:none;paint-order:markers stroke fill;stroke:#999999;stroke-opacity:1"
+       d="m 63.499999,79.374994 15.875,-15.874997"
+       id="path4" />
+  </g>
+  <g
+     id="path2"
+     style="stroke:#999999;stroke-opacity:1;fill:#999999">
+    <path
+       style="color:#000000;fill:#999999;stroke-linecap:round;-inkscape-stroke:none;paint-order:markers stroke fill;stroke:#999999;stroke-opacity:1"
+       d="m 63.5,63 a 0.50006002,0.50006002 0 0 0 -0.353516,0.146484 0.50006002,0.50006002 0 0 0 0,0.707032 l 15.875,15.875 a 0.50006002,0.50006002 0 0 0 0.707032,0 0.50006002,0.50006002 0 0 0 0,-0.707032 l -15.875,-15.875 A 0.50006002,0.50006002 0 0 0 63.5,63 Z"
+       id="path5" />
+    <path
+       style="color:#000000;fill:#999999;stroke-linecap:round;-inkscape-stroke:none;paint-order:markers stroke fill;stroke:#999999;stroke-opacity:1"
+       d="m 79.374999,79.374994 -15.875,-15.874997"
+       id="path6" />
+  </g>
+</svg>

@@ -1,5 +1,129 @@
+:root{
+  --background: #282c34;
+  --canvasbackground: rgb(0, 0, 0,1);
+  --canvasColor:#2d2f34
+}
+
+#topBar{
+  background:  rgb(50, 57, 68);
+  width: 100%;
+  margin-bottom: 22px;
+  color: rgb(133, 133, 133);
+  font-variant: small-caps;
+}
+
+canvas{
+  background-color: var(--canvasbackground);
+}
+
+iframe
+{
+    display: none;
+}
+
+#bigCanvas{
+  align-items: center;
+  position: fixed;
+  top: 1%;
+  left: 2%;
+  right: 2%;
+  bottom: 1%;
+  width: fit-content;
+  height: fit-content;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+}
+
+#expandButton{
+  background-color: rgba(255, 0, 0, 0);
+  align-items: center;
+  display: flex;
+  border: none;
+  cursor: pointer;
+  min-width: 30px;
+  min-height: 30px;
+  position: absolute;
+        top: 0px;
+        right: 0px;
+}
+
+
+
+#expandButton:hover{
+  background: rgb(13, 90, 141);
+}
+
+::-webkit-scrollbar {
+  background:  rgb(53, 53, 53) !important;
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background:  rgb(63, 62, 62) !important;
+}
+::-webkit-scrollbar-thumb {
+  background: #242424 !important;
+  width: 15px;
+  border: 2px solid rgb(63, 62, 62);
+}
+
+#closeButton{
+  background-color: rgba(255, 0, 0, 0);
+  align-items: center;
+  display: flex;
+  border: none;
+  cursor: pointer;
+  min-width: 30px;
+  min-height: 30px;
+  position: absolute;
+        top: 0px;
+        right: 0px;
+}
+
+#closeButton:hover{
+  background: rgb(119, 3, 3);
+}
+
+#info_node{
+  margin-left: 15px;
+  color: darkgrey;
+  width: fit-content;
+  height: fit-content;
+}
+
+
+#canvas_wrapper{
+  background-color: var(--canvasColor);
+  display: inline-block;
+  width: fit-content;
+  height: fit-content;
+  box-shadow: 2px 2px 5px;
+  position: relative;
+  /* padding: 12px; */
+}
+
+body{
+  background: var(--background);
+  position: relative;
+}
+
+#box{
+  
+  margin-bottom: 55px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  align-content: center;
+  row-gap: 80px;
+  column-gap: 80px;
+  /* grid-auto-flow: column; */
+}
+
 .App {
   text-align: center;
+  background: var(--background);
 }
 
 .App-logo {
@@ -14,11 +138,11 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: var(--background);
+  
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
