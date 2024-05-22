@@ -1,7 +1,7 @@
 ## 3D models gallery
 An app created with `React.js` and `Three.js`.  
 It uses frontend and backend (server).  
-Server handles necessary files in folders. 
+Server handles necessary files in folders,
 while frontend displays interactable tiles with 3D models.  
 
 
