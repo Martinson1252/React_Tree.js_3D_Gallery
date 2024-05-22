@@ -44,7 +44,8 @@ if(!document.getElementById("box")){
   var renderer = CreateCanvasViewer( 500,500, filename,filesize);
   
   var wrapper = document.createElement('div');
-  wrapper.setAttribute("id","canvas_wrapper");
+  wrapper.setAttribute("class","canvas_wrapper");
+  wrapper.setAttribute("id",filename);
   
   var infoNode = document.createElement('div');
   infoNode.setAttribute("id","info_node");
@@ -66,24 +67,32 @@ if(!document.getElementById("box")){
     wrapper.appendChild(expandButton);   
     document.getElementById("box").appendChild(wrapper);  }
   
-  
-  
 } 
+
+document.getElementById("SearchInputField").addEventListener("input",(value)=>
+{
+  value = value.target.value;
+  document.querySelectorAll('[class*="canvas_wrapper"]').forEach(element => {
+    console.log(element.id);
+    if(element.id.includes(value))
+    {element.style.display = 'block';}
+    else{
+      element.style.display = 'none';
+    }
+      
+  });
+  console.log(value);
+})
+  
+
+
 
 
 
 return (
     <div className="App">
       <header className="App-header">
-        
-      <div id ="topBar">
-        <h2>
-          3D models gallery
-        </h2>
-      </div>
-        
-        
-          
+
       </header>
         
     </div>

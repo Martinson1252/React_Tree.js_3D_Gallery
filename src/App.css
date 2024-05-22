@@ -4,12 +4,71 @@
   --canvasColor:#2d2f34
 }
 
+h2{
+  font-variant: small-caps;
+}
+
+#searchIcon{
+  display:block;
+  width: 16px;
+  height: auto;
+  right: 2%;
+  margin-right: 6px;
+  margin-left: 2px;
+  
+}
+#searchIconContainer{
+  display: flex;
+  width: fit-content;
+  height: 30px;
+  right: 2%;
+  padding-left: 2px;
+  background-color: #282c34;
+}
+
 #topBar{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  
   background:  rgb(50, 57, 68);
   width: 100%;
   margin-bottom: 22px;
   color: rgb(133, 133, 133);
-  font-variant: small-caps;
+  height: max-content;
+  align-items: center;
+  position: relative;
+}
+
+#SearchBar{
+  margin: none;
+  display: flex;
+  position: absolute;
+  right: 2%;
+  top: 50%;
+  font-size:16px;
+  text-align: center;
+  align-items: center;
+}
+
+#SearchInputField{
+  margin-left: 10px;
+  background-color: #282c34;
+  border: none;
+  color: rgb(168, 168, 168);
+  text-align: center;
+  padding: 0%;
+  height: 30px;
+}
+#SearchInputField:focus{
+  margin-left: 10px;
+  background-color: #282c34;
+  color: rgb(168, 168, 168);
+  text-align: center;
+  outline: none;
+  padding: 0%;
+  height: 30px;
 }
 
 canvas{
@@ -93,12 +152,12 @@ iframe
 }
 
 
-#canvas_wrapper{
+.canvas_wrapper{
   background-color: var(--canvasColor);
   display: inline-block;
   width: fit-content;
   height: fit-content;
-  box-shadow: 2px 2px 5px;
+  box-shadow: 2px 2px 5px black;
   position: relative;
   /* padding: 12px; */
 }
