@@ -16,7 +16,9 @@
     "webpack": "^5.91.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "concurrently --kill-others-on-fail \"npm run client\" \"npm run server\"",
+    "client": "react-scripts start",
+    "server": "npm --prefix ./server run start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -40,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "concurrently": "^8.2.2",
     "file-loader": "^6.2.0",
     "nodemon": "^3.1.0"
   }
