@@ -2,7 +2,7 @@
   "name": "gallery3d",
   "version": "0.1.0",
   "main": "App.js",
-  "proxy": "https://66854bd39cd4650cfb77009e--react-treejs-server.netlify.app/",
+  "proxy": "https://react-tree-3d-gallery-server.netlify.app/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
