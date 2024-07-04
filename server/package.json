@@ -1,7 +1,14 @@
 {
+  "main":"server.js",
+  "scripts":{
+    "build":"netlify deploy --prod"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
-    "nodemon": "^3.1.0"
+    "netlify-cli": "^17.32.0",
+    "netlify-lambda": "^2.0.16",
+    "nodemon": "^3.1.0",
+    "serverless-http": "^3.2.0"
   }
 }
