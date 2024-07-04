@@ -9,7 +9,7 @@ const serverless = require('serverless-http');
 
 const PORT = process.env.PORT || 8080;
 // app.listen(PORT, ()=> console.log("server started") );
-app.use('/.netlify/functions/api', router );
+app.use('https://react-tree-3d-gallery-server.netlify.app/', router );
 module.exports.handler = serverless(app);
 const model_list = [];
 fs = require("fs");
