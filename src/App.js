@@ -23,7 +23,7 @@ if(!document.getElementById("box")){
     
     
     function getFetchedData() {
-      return fetch('api/items')
+      return fetch('https://react-tree-3d-gallery-server.netlify.app/api/items')
           .then((response) => { 
               return response.json().then((data) => {
                 console.log(data);
