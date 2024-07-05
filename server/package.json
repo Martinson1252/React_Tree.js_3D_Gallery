@@ -1,7 +1,7 @@
 {
   "main":"server.js",
   "scripts":{
-    "build":"netlify deploy --prod"
+    "build":"npm run build"
   },
   "dependencies": {
     "cors": "^2.8.5",
