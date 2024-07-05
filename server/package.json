@@ -2,7 +2,7 @@
   "main":"server.js",
   "scripts":{
     "start": "nodemon server",
-    "build": "nodemon build"
+    "build": "npm run build"
   },
   "dependencies": {
     "cors": "^2.8.5",
