@@ -1,8 +1,7 @@
 {
   "main":"server.js",
   "scripts":{
-    "start": "nodemon server",
-    "build": "npm run build"
+    "start": "nodemon server"
   },
   "dependencies": {
     "cors": "^2.8.5",
