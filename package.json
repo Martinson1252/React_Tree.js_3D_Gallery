@@ -2,6 +2,7 @@
   "name": "gallery3d",
   "version": "0.1.0",
   "main": "App.js",
+  "proxy":"https://react-tree3d-3dgallery-server-nkpxjak3o-martinsons-projects.vercel.app/api/items",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
