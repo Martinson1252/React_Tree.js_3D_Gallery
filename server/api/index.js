@@ -4,17 +4,18 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const router = express.Router();
-const serverless = require('serverless-http');
+//const serverless = require('serverless-http');
 
 
 const PORT = process.env.PORT || 8080;
-// app.listen(PORT, ()=> console.log("server started") );
+app.listen(PORT, ()=> console.log("server started") );
 // app.use('https://react-tree-3d-gallery-server.netlify.app' );
 const model_list = [];
 fs = require("fs");
-let folder = path.join("public/models/");
+let folder = path.join(__dirname,"../public/models/");
 const files = fs.readdirSync(folder);
-app.use('/.netlify/functions/server', router);
+console.log(files);
+app.use(express.json());
 
     
     for (const i of files){
@@ -26,16 +27,13 @@ app.use('/.netlify/functions/server', router);
             }
             
         }
-        
-        
-        
-       
             
-            router.get("/api/items", (req, res) => {
-                res.send((model_list)); 
-                console.log(model_list);
-                
-            });
+    app.get("/api/items", (req, res) => {
+        res.send((model_list)); 
+        console.log(model_list);
         
-      
-        module.exports.handler = serverless(app);
+    });
+        
+// app.use('react-tree3d-3dgallery-server',router);
+module.exports = app;
+//module.exports.handler = serverless(app);

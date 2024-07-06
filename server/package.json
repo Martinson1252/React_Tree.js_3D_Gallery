@@ -1,8 +1,7 @@
 {
-  "main":"server.js",
+  "main":"api/index.js",
   "scripts":{
-    "start": "nodemon server",
-    "build":"netlify deploy --prod"
+    "start": "nodemon server"
   },
   "dependencies": {
     "cors": "^2.8.5",

@@ -23,7 +23,7 @@ if(!document.getElementById("box")){
     
     
     function getFetchedData() {
-      return fetch('https://react-tree-3d-gallery-server.netlify.app/api/items')
+      return fetch('https://react-tree3d-3dgallery-server-nkpxjak3o-martinsons-projects.vercel.app/api/items')
           .then((response) => { 
               return response.json().then((data) => {
                 console.log(data);
