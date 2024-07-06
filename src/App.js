@@ -15,8 +15,6 @@ g.setAttribute("id", "box")
 if(!document.getElementById("box")){
   document.body.append(g);  }
 
- 
-    
     useEffect( () =>{
       getFetchedData();
     },[] )
