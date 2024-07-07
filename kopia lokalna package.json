@@ -16,7 +16,7 @@
     "webpack": "^5.91.0"
   },
   "scripts": {
-    "start": "npm run client",
+    "start": "concurrently --kill-others-on-fail \"npm run client\" \"npm run server\"",
     "client": "react-scripts start",
     "server": "npm --prefix ./server run start",
     "build": "react-scripts build",

@@ -5,16 +5,16 @@ const app = express();
 const cors = require('cors');
 const path = require("path");
 //const serverless = require('serverless-http');
-app.use(cors({
-    origin: 'https://react-tree3d-3dgallery-server-nkpxjak3o-martinsons-projects.vercel.app/api/items', 
-}));
+
+app.use(cors());
 app.options("/api/items", (req, res) => {
-    // CORS preflight handling
-    res.setHeader("Access-Control-Allow-Origin", "*");
+    // CORS handling
+    res.setHeader("Access-Control-Allow-Origin", 'https://react-tree3d-3dgallery-server.vercel.app');
+    res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
     res.set({ 'content-type': 'application/json; charset=utf-8' });
     res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
     res.setHeader("Access-Control-Allow-Headers", "Content-Type");
-    res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, private');
+    res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, private','no-cors');
     res.sendStatus(204);
     res.writeHead(200, {'Content-Type': 'text/html; charset=utf-8'});
   });
