@@ -1,11 +1,11 @@
 
 
 const express = require("express");
-const app = express();
 const cors = require('cors');
 const path = require("path");
 //const serverless = require('serverless-http');
 
+const app = express();
 app.use(cors());
 app.options("/api/items", (req, res) => {
     // CORS handling
